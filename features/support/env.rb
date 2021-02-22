@@ -5,7 +5,7 @@ require "os"
 
 require_relative "helpers"
 
-World(Helpers)
+World(HELPERS)
 
 CONFIG = YAML.load_file(File.join(Dir.pwd, "features/support/config/#{ENV["ENV_TYPE"]}.yaml"))
 
