@@ -1,6 +1,4 @@
-
-
-module Helpers
+module HELPERS
   def get_token
     timeout = Capybara.default_max_wait_time
     timeout.times do
